@@ -2,39 +2,39 @@
 # Hi there, I'm your helpbook! 👋
 
 
-# Project Title
+# Project Intro
 
-In this project, you'll build a fully-functional link-sharing app for developers!
-
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
+In this project, you'll build the basics of a fully-functional profile/link sharing application. This will assess your technical proficiency and ability to create something from scratch from basic requirements.
 
 
-## Roadmap
+## Tasks
 
-- Clone the web-application in your local.
-- Perform the create & read operation for a user.
-- Push the changes to your github.
-- Share the link of the github repo.
+- Clone the repo to get started. The assets folder contains pictures of a mockup for a simple application.
+- Using any framework of your choice, create the frontend and backend of the application. (see suggested tech stack below if you want bonus points)
+- Save your project to your github.
+- Share the link of the github repo with instructions on how to run.
+- Provide us with some times to connect to show off your work/answer followup questions.
 
 
-## Features
-
-- **Create User** - POST request for creating the user along with the required information shown in image1.jpg & image2.jpg.
-- **Preview User** - GET request for fetching the user information from the backend as shown in image3.jpg.
+## Project Requirements
+Your application should fulfill the following minimum requirements:
+- **Create User and Profile links** - Using image1 and image2 as references, there should be a page where you can enter information for a user. This page should allow you to save the user.
+- **Display User** - Using image3 as reference, there should be a page where it displays the saved information of the user.
 - **Cross Platform** - Make the web-application responsive for multiple platform like laptop, tablet, phone.
 
+Bonus points for additional features.
 
 ## Tech Stack
 
-**Tip** - Please feel free to use Docker images wherever required & dockerize the frontend & backend services if you feel any necessity for it.
+Feel free to use whatever framework that you are most comfortable with. Bonus points for the highlighted desired tools.
 
-**Client:** React | Angular, Redux, Material UI, TailwindCSS, etc.
+**Client:** **React**, Angular, Redux, Material UI, TailwindCSS, etc.
 
-**Server:** Node, Express, Typescript
+**Server:** **Node**, Express, Typescript
 
-**Database:** PostgreSQL | Mongo
+**Database:** **PostgreSQL**, MySQL, Mongo
+
+**Tip** - Please feel free to use community or public Docker images to stand components up faster.
 
 
 ## API Reference
@@ -48,34 +48,33 @@ What did you learn while building this project? What challenges did you face and
 #### Get user information
 
 ```http
-  GET /api/v1/user
+  GET /api/v1/getUser
 ```
 
-
-## Clone
-
-To clone this task repository run
-
-```bash
-  git clone <link>
-```
+## Project Scope
+The project is meant to assess your mastery of full stack development. The final product should be contain all of the components necessary to run and should not require any additional third-party application to run.
 
 
 ## FAQ's
 
-#### Question 1 - Should I not submit the task if the task wasn't fully completely before the deadline?
+#### How much time do I have to build this?
 
-Answer 1 - Absolutely not, Please submit your task/ assignment, we care more about the actual implementation of the task rather than completion.
+Answer - The project is meant to assess your mastery of full stack development. You can spend as much time as you want to build but we recommend you don't need to spend more than 4-5 hours for this. 
+We care more about the actual implementation of the task rather than completion.
 
-#### Question 2 - Do I need to clone the web-application using the exact matching color options as well as the text-size and other UI-elements?
+#### Do I need to clone the sample images exactly?
 
-Answer 2 - Nope, we care more about the functional knowledge than the actual visible clone of the application.
+Answer - Nope, as long as the core elements are there and the UI looks reasonably similar, it is fine. You do not have to make a 100% perfect copy of the template images as we care more about the functional knowledge than fixing every line of CSS.
 
-#### Question 3 - If the UI task is taking more time should I implement the CRUD flow and the required UI for the CRUD, will that be acceptable?
+#### Do I need to deploy the application somewhere?
 
-Answer 3 - Yes, It will be acceptable.
+Answer - No, but please include instructions on how to run the application locally.
+
+#### What do I need to prepare for the followup call?
+
+Answer - Walk us through your application. What challenges did you face and how did you overcome them? What is something you would implement if you put in more time?
 
 ## Support
 
-For support, email to luo@dabot.ai | karthik@dabot.ai.
+For support, email to karthik@dabot.ai | luo@dabot.ai
 
