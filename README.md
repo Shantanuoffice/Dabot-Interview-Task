@@ -28,6 +28,8 @@ What did you learn while building this project? What challenges did you face and
 
 ## Tech Stack
 
+**Tip** - Please feel free to use Docker images wherever required & dockerize the frontend & backend services if you feel any necessity for it.
+
 **Client:** React | Angular, Redux, Material UI, TailwindCSS, etc.
 
 **Server:** Node, Express, Typescript
