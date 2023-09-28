@@ -30,7 +30,7 @@ Feel free to use whatever framework that you are most comfortable with. Bonus po
 
 **Client:** **React**, Angular, Redux, Material UI, TailwindCSS, etc.
 
-**Server:** **Node**, Express, Typescript
+**Server:** **Node**, Express, Javascript | Typescript
 
 **Database:** **PostgreSQL**, MySQL, Mongo
 
